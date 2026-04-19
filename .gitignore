@@ -1,0 +1,10 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+# OS / IDE
+.vscode/
+*.log
+# secrets
+key.json
+*.json
