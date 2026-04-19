@@ -22,17 +22,14 @@ jobs:
             
             - name: Terraform init
               run: terraform init
-              working-directory: data-governance/terraform
             
             - name: Terraform Validate
               run: terraform validate
-              working-directory: data-governance/terraform
             
             - name: Terraform plan
               run : terraform plan
-              working-directory: data-governance/terraform
             
             - name: Terraform Apply
               run: terraform apply -auto-approve
-              working-directory: data-governance/terraform
+              
 
